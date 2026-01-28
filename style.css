@@ -232,6 +232,40 @@ img {
     color: var(--primary);
     font-weight: bold;
     border-radius: 2px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #d66d0c;
+    transform: scale(1.05);
+}
+
+/* Dual buttons for images card */
+.images-card {
+    cursor: default;
+}
+
+.dual-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.btn-primary {
+    background: var(--accent);
+    color: var(--primary);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--white);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
 footer {

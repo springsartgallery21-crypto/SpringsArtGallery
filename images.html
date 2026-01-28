@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibition Images - Springs Art Gallery</title>
+    <link rel="icon" type="image/png" href="New Project (2).png">
+    <link rel="stylesheet" href="images-style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    
+    <header>
+        <img src="logo.png" alt="Springs Art Gallery Logo" class="logo">
+        <div>
+            <h1>SPRINGS ART GALLERY</h1>
+            <p>Exhibition Images Gallery</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <nav class="breadcrumb">
+            <a href="index.html">← Back to Home</a>
+        </nav>
+
+        <section class="gallery-intro">
+            <h2>Previous Exhibitions</h2>
+            <p>Explore highlights from our past exhibitions and events at Springs Art Gallery</p>
+        </section>
+
+        <!-- Image Gallery Grid -->
+        <section class="gallery-grid">
+            <div class="gallery-item">
+                <img src="MG_0312.JPG" alt="Exhibition Art 1" loading="lazy">
+                <div class="image-overlay">
+                    <h3>Exhibition Artwork</h3>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="MG_0326.JPG" alt="Exhibition Art 2" loading="lazy">
+                <div class="image-overlay">
+                    <h3>Gallery Display</h3>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="MG_3191.JPG" alt="Exhibition Art 3" loading="lazy">
+                <div class="image-overlay">
+                    <h3>Featured Piece</h3>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="MG_1790.JPG" alt="Exhibition Art 4" loading="lazy">
+                <div class="image-overlay">
+                    <h3>Exhibition View</h3>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="MG_3189.JPG" alt="Exhibition Art 5" loading="lazy">
+                <div class="image-overlay">
+                    <h3>Artistic Display</h3>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="MG_3246.JPG" alt="Exhibition Art 6" loading="lazy">
+                <div class="image-overlay">
+                    <h3>Gallery Space</h3>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="Design File.jpg" alt="Exhibition Art 7" loading="lazy">
+                <div class="image-overlay">
+                    <h3>Design Showcase</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <span class="close-lightbox">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <div class="lightbox-caption"></div>
+            <a class="lightbox-prev">&#10094;</a>
+            <a class="lightbox-next">&#10095;</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Springs Art Gallery. All rights reserved.</p>
+        <p>For more information contact: <a href="mailto:Nkosinathi.Gumede@ekurhuleni.gov.za">Nkosinathi.Gumede@ekurhuleni.gov.za</a></p>
+    </footer>
+
+    <script src="images-script.js"></script>
+</body>
+</html>
